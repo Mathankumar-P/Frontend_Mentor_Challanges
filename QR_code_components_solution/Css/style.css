@@ -1,0 +1,62 @@
+@import url('https://fonts.googleapis.com/css2?family=Outfit:wght@400;700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Graduate&display=swap');
+*
+{
+    margin:0;
+    padding:0;
+    box-sizing: border-box;
+    text-align: center;
+    
+}
+.Outer-container
+{
+    max-width: 90%;
+    min-height:75vh;
+    border-radius: 10px;
+    min-width:325px;
+    background-color:hsl(212, 45%, 89%);
+    margin:70px auto; 
+    display:flex;
+    justify-content: center; 
+    align-items: center;   
+}
+.inner-container
+{
+    width: 220px;
+    height: 350px;
+    background-color: white;
+    border-radius:15px;
+}
+.Outer-container, .inner-container
+{
+    box-shadow: 0 3px 5px hsl(212, 12%, 78%);
+}
+img{
+    margin-top:10px;
+    border-radius:10px ;
+}
+#p1{
+    margin: 0px 5px;
+    padding:0.5em;
+    font-size:15px;
+    font-family: 'Outfit', sans-serif;
+    font-weight:700;
+    color: hsl(218, 44%, 22%);
+    text-align:space-evenly;
+}
+#p2
+{
+    margin: auto 5px;
+    padding:0.5rem;
+    font-size:0.75rem;
+    font-family: 'Outfit', sans-serif;
+    font-weight:400;
+    color: hsl(220, 15%, 55% 50%)
+}
+footer p{
+    font-family: 'Graduate', cursive;;
+}
+a, a:visited , a:hover, a:active
+{
+    color: hsl(217, 95%, 30%);;
+}
